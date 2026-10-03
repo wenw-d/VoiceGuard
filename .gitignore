@@ -1,0 +1,61 @@
+# Python environments and caches
+venv*/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# AI model weights and local model caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+weights/
+model_weights/
+wav2vec2-xls-r-300m-local/
+.cache/
+**/.cache/
+.huggingface/
+huggingface/
+huggingface_cache/
+
+# Temporary audio, generated records, and outputs
+test_audio/
+outputs/
+tmp/
+temp/
+voiceguard_upload_*
+voiceguard_normalized_*
+*.wav
+*.mp3
+*.m4a
+*.webm
+*.flac
+*.ogg
+verification_qr*.png
+verification_record*.json
+
+# Editors and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,10 @@
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+qrcode[pil]==8.2
+numpy==2.4.6
+soundfile==0.14.0
+safetensors==0.8.0
+torch==2.14.1
+torchaudio==2.11.0
+transformers==5.18.0
